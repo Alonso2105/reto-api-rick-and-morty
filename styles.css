@@ -52,3 +52,12 @@ html, body {
   transform: scale(1.05);
   cursor: pointer; 
 }
+
+
+a {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px; 
+}
